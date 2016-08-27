@@ -7,12 +7,43 @@
 <body>
   <h1>電卓</h1>
   <form name="dentaku" action="">
-    <input type="text" name="num1"> ± <input type="text" name="num2"> = <input type="text" name="sum">
-    <input type="submit" name="sum1" value="足し算する">
-    <input type="submit" name="sum2" value="引き算する">
-    <input type="submit" name="sum3" value="掛け算する">
-    <input type="submit" name="sum4" value="割り算する">
+    <table>
+      <tr>
+        <th colspan="4"><input type="text" name="" value=""></th>
+      </tr>
+      <tr>
+        <td><button type="button" name="clear" value="AC">AC</button></td>
+        <td><button type="button" name="sign" value="+/-">+/-</button></td>
+        <td><button type="button" name="percent" value="%">%</button></td>
+        <td><button type="button" name="mark4" value="÷">÷</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="num7" value="7">7</button></td>
+        <td><button type="button" name="num8" value="8">8</button></td>
+        <td><button type="button" name="num9" value="9">9</button></td>
+        <td><button type="button" name="mark3" value="×">×</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="num4" value="4">4</button></td>
+        <td><button type="button" name="num5" value="5">5</button></td>
+        <td><button type="button" name="num6" value="6">6</button></td>
+        <td><button type="button" name="mark2" value="-">-</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="num1" value="1">1</button></td>
+        <td><button type="button" name="num2" value="2">2</button></td>
+        <td><button type="button" name="num3" value="3">3</button></td>
+        <td><button type="button" name="mark1" value="+">+</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button type="button" name="num0" value="0">0</button></td>
+        <td><button type="button" name="mark" value=".">.</button></td>
+        <td><button type="button" name="sum" value="=">=</button></td>
+      </tr>
+    </table>
   </form>
+
+
   <script src="index.js"></script>
 </body>
 </html>
