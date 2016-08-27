@@ -28,6 +28,7 @@ function parseNum(){
 }
 
 //四則計算
+//markが押されたらmarkを確認し、num01をnumへパースして代入
 document.dentaku.mark1.onclick = function mark1(){
   parseNum();
   mark = "+";
@@ -83,7 +84,6 @@ document.dentaku.sum.onclick = function sum(){
     console.log(num);
   }
 }
-
 
 //変数の初期化
 document.dentaku.clear.onclick = function clear(){
