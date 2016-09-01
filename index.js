@@ -202,16 +202,3 @@ document.dentaku.clear.onclick = function clear(){
   mark = "";
   pressNum();
 }
-
-
-//+α
-//%を選択した時の処理
-document.dentaku.percent.onclick = function percent(){
-  num = num * 0.01;
-  pressNum();
-}
-//+/-を選択した時の処理
-document.dentaku.sign.onclick = function sign(){
-  num = num * (-1);
-  pressNum();
-}
