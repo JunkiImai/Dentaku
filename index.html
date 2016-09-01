@@ -2,14 +2,14 @@
 <html lang="ja">
 <head>
   <title>電卓</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>電卓</h1>
   <form name="dentaku" action="">
     <table>
       <tr>
-        <th colspan="4"><input type="text" name="" value=""></th>
+        <th colspan="4"><input id="sum" class="col4" type="text" name="sum" value=""></th>
       </tr>
       <tr>
         <td><button type="button" name="clear" value="AC">AC</button></td>
@@ -36,9 +36,9 @@
         <td><button type="button" name="mark1" value="+">+</button></td>
       </tr>
       <tr>
-        <td colspan="2"><button type="button" name="num0" value="0">0</button></td>
+        <td colspan="2"><button class="col2" type="button" name="num0" value="0">0</button></td>
         <td><button type="button" name="mark" value=".">.</button></td>
-        <td><button type="button" name="sum" value="=">=</button></td>
+        <td><button type="button" name="cal" value="=">=</button></td>
       </tr>
     </table>
   </form>

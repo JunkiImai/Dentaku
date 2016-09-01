@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+body{
+  /*background-color: #000;
+  color: #fff;*/
+}
+button{
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+}
+button:hover{
+  background-color: #000;
+  color: #fff;
+}
+.col4{
+  width: 190px;
+  height: 50px;
+  margin: 0;
+  border: 1px solid #000;
+  pointer-events : none;
+}
+input{
+  text-align: right;
+  font-size: 50px;
+  padding: 10px;
+}
+.col2{
+  width: 100%;
+}
